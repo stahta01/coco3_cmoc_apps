@@ -1,3 +1,5 @@
+	SECTION	code
+
 _fmemset 
 	pshs    u
     tfr 	s,u
@@ -16,3 +18,7 @@ _memset_cond
     ldd 4,u     return start address
     tfr u,s
     puls    u,pc
+
+	ENDSECTION
+
+	END
