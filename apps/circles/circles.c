@@ -30,7 +30,7 @@ int16_t myrandom() {
     return (rand() >> 1) ^ rand();
 }
 
-int main(int argc, char** argv) {
+int main() {
     /* Speedups */
     set6309Native();
     initCoCoSupport();
